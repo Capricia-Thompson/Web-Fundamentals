@@ -21,17 +21,6 @@
     width: 50%;
 }
 
-.bold {
-    font-weight: bold;
-}
-
-button {
-    background-color: #0085A3;
-    color: white;
-    padding: 5px;
-    font-size: medium;
-}
-
 .main {
     background-color: azure;
     display: flex;
@@ -54,16 +43,15 @@ button {
     border: 5px solid #3D3D3D;
     padding: 30px;
     line-height: inherit;
-    margin-bottom: 20px;
 }
 
-.module {
+.card {
     border: 5px solid #3D3D3D;
-    line-height: inherit;
-    margin-bottom: 20px;
+    line-height: inherit padding: 30px;
+    margin-bottom: 20px
 }
 
-.modhead {
+.cardhead {
     background-color: #3D3D3D;
     color: white;
     padding: 10px;
@@ -72,8 +60,15 @@ button {
     align-items: center;
 }
 
-.modbody {
+.cardbody {
     padding: 10px;
+}
+
+button {
+    background-color: #0085A3;
+    color: white;
+    padding: 5px;
+    font-size: medium;
 }
 
 li {
@@ -131,4 +126,8 @@ li {
 .link {
     text-decoration: underline;
     color: blue;
+}
+
+.bold {
+    font-weight: bold;
 }
