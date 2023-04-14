@@ -1,0 +1,38 @@
+* {
+    color: white;
+    font-family: "roboto", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgb(33, 141, 195);
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 5px 10px;
+}
+
+.nav {
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    padding: 0px 15px;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px;
+}
+
+.active {
+    font-weight: bold;
+}

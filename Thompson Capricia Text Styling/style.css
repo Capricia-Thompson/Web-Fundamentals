@@ -1,0 +1,28 @@
+* {
+    font-family: cursive
+}
+
+h1,
+h2 {
+    color: white
+}
+
+span {
+    color: rgb(99, 218, 206)
+}
+
+.banner {
+    background-color: black
+}
+
+.header {
+    background-color: rgb(91, 45, 136);
+    text-align: center;
+}
+
+.footer {
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: powderblue;
+    text-align: right;
+}

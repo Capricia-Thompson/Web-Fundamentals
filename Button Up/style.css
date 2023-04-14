@@ -1,0 +1,27 @@
+#search {
+    border-radius: 20px;
+    border: 1px solid teal;
+    color: teal;
+    background-color: rgb(234, 231, 227);
+    padding: 5px;
+    ;
+}
+
+#plus {
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(14, 222, 208);
+    border: none;
+    padding: 15px 15px;
+}
+
+#create {
+    border: 2px solid black;
+    color: white;
+    background-color: skyblue;
+    box-shadow: 2px 2px black;
+}
+
+div {
+    margin: 20px;
+}

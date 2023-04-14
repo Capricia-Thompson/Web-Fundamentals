@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: gill sans, sans-serif;
+}
+
+.navbar {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.main {
+    margin: 20px;
+    display: flex;
+}
+
+.col1 {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.col2 {
+    width: 30%;
+}
+
+.card {
+    border: 5px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.def {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail {
+    text-align: center;
+    width: 30%;
+}
+
+.definition {
+    margin: 20px;
+    width: 70%
+}
+
+input {
+    border: 5px solid black;
+    width: 40%;
+}
+
+button {
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.login {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.likes {
+    background-color: goldenrod;
+    margin-top: 5px;
+}
+
+.add {
+    background-color: mediumseagreen;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}

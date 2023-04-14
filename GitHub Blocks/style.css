@@ -1,0 +1,37 @@
+img {
+    height: 200px;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.picblock {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px 20px;
+}
+
+#top {
+    background-color: rgb(100, 149, 237);
+}
+
+#middle {
+    background-color: rgb(31, 102, 173);
+    justify-content: space-evenly;
+}
+
+#bottom {
+    background-color: rgb(2, 2, 139);
+}
+
+.banner {
+    text-align: center;
+    background-color: darkslategrey;
+    font-family: sans-serif;
+    font-weight: bold;
+}
