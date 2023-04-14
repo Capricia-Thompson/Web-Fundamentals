@@ -40,14 +40,12 @@
 
 .usercard {
     background: linear-gradient(0deg, aliceblue 70%, #0085A3 30%);
-    border: 5px solid #3D3D3D;
     padding: 30px;
-    line-height: inherit;
 }
 
 .card {
     border: 5px solid #3D3D3D;
-    line-height: inherit padding: 30px;
+    line-height: inherit;
     margin-bottom: 20px
 }
 
@@ -73,28 +71,6 @@ button {
 
 li {
     list-style: none;
-}
-
-.avatar {
-    border-radius: 50%;
-    border: 5px solid black;
-    height: 100px;
-}
-
-.mini {
-    height: 30px;
-}
-
-.icon-s {
-    height: 15px;
-}
-
-.icon-m {
-    height: 30px;
-}
-
-.actions {
-    justify-self: flex-end;
 }
 
 .userlist {
@@ -130,4 +106,18 @@ li {
 
 .bold {
     font-weight: bold;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid black;
+    height: 100px;
+}
+
+.mini {
+    height: 30px;
+}
+
+.icon-s {
+    height: 15px;
 }
