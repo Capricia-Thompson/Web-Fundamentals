@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
         <div class="col1">
             <div class="card usercard">
                 <img src="images/jane-m.jpg" alt="avatar image" class="avatar">
-                <h1>Jane Doe</h1>
+                <h1 class="username">Jane Doe</h1>
                 <h2>
                     <img src="icons/map-marker.png" alt="map marker" class="icon-s">
                     Seattle
@@ -36,7 +37,7 @@
                 </h3>
                 <div class="icontext">
                     <img src="icons/gear.png" alt="gear" class="icon-s">
-                    <a class="link">edit profile</a>
+                    <a class="link" onclick="changeName()">edit profile</a>
                 </div>
             </div>
             <div class="card">
@@ -51,35 +52,39 @@
         <div class="col2">
             <div class="card">
                 <div class="cardhead">
-                    <h3 class="notifbub">2</h3>
+                    <h3 class="notifbub requests">2</h3>
                     <h3>Connection Requests</h3>
                 </div>
                 <ul class="cardbody">
-                    <li class="userlist">
+                    <li class="userlist user2">
                         <div class="icontext">
                             <img src="./images/todd-s.jpg" alt="avatar image" class="avatar mini">
                             <h4>Todd E</h4>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="accept icon" class="mini">
-                            <img src="icons/close-circle.png" alt="close icon" class="mini">
+                            <img src="icons/accept-circle.png" alt="accept icon" class="mini"
+                                onclick="acceptUser('.user2')">
+                            <img src="icons/close-circle.png" alt="close icon" class="mini"
+                                onclick="rejectUser('.user2')">
                         </div>
                     </li>
-                    <li class="userlist">
+                    <li class="userlist user3">
                         <div class="icontext">
                             <img src="images/phil-s.jpg" alt="avatar image" class="avatar mini">
                             <h4>Phil K</h4>
                         </div>
                         <div>
-                            <img src="icons/accept-circle.png" alt="accept icon" class="mini">
-                            <img src="icons/close-circle.png" alt="close icon" class="mini">
+                            <img src="icons/accept-circle.png" alt="accept icon" class="mini"
+                                onclick="acceptUser('.user3')">
+                            <img src="icons/close-circle.png" alt="close icon" class="mini"
+                                onclick="rejectUser('.user3')">
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="card">
                 <div class="cardhead">
-                    <h3 class="notifbub">500+</h3>
+                    <h3 class="notifbub connects">419</h3>
                     <h3>Your Connections</h3>
                 </div>
                 <ul class="cardbody">
