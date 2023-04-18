@@ -1,4 +1,4 @@
-function addLike() {
-    var likes = document.querySelector("#likes")
+function addLike(element) {
+    var likes = document.querySelector(element)
     likes.innerText++
 }

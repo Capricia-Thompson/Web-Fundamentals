@@ -11,14 +11,49 @@
 </head>
 
 <body>
-    <div class="top">
-        <div class="head">
-            <h1>Some User</h1>
-            <h2><span id="likes">0</span> like(s)</h2>
+    <h1 class="head" id="dark">Network</h1>
+    <h1 class="head">Your Feed</h1>
+    <div class="main">
+        <div class="leftcol">
+            <div class="card act-user">
+                <img class="avatar" src="./Icons/user-circle.png" alt="user picture">
+                <a>Add an avatar</a>
+                <h1 class="user1">James Doe</h1>
+            </div>
         </div>
-        <button onclick="addLike()">Like</button>
+        <div class="rigthcol">
+            <div class="card">
+                <div class="top">
+                    <div class="cardhead">
+                        <h1 class="user2">Neil M</h1>
+                        <h2><span class="likes user2">0</span> like(s)</h2>
+                    </div>
+                    <button onclick="addLike('.likes.user2')">Like</button>
+                </div>
+                <h3>This is some filler text. It can say anything we like, but I don't know what else to put.</h3>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <div class="cardhead">
+                        <h1 class="user3">Nicoke K</h1>
+                        <h2><span class="likes user3">0</span> like(s)</h2>
+                    </div>
+                    <button onclick="addLike('.likes.user3')">Like</button>
+                </div>
+                <h3>This is some filler text. It can say anything we like, but I don't know what else to put.</h3>
+            </div>
+            <div class="card">
+                <div class="top">
+                    <div class="cardhead">
+                        <h1 class="user4">Jim R</h1>
+                        <h2><span class="likes user4">0</span> like(s)</h2>
+                    </div>
+                    <button onclick="addLike('.likes.user4')">Like</button>
+                </div>
+                <h3>This is some filler text. It can say anything we like, but I don't know what else to put.</h3>
+            </div>
+        </div>
     </div>
-    <h3>This is some filler text. It can say anything we like, but I don't know what else to put.</h3>
 </body>
 
 </html>
