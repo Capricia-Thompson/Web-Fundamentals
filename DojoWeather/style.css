@@ -34,9 +34,16 @@
     padding: 10px 0;
 }
 
-.weather-panel {
+.city-day {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.weather-panel1,
+.weather-panel2 {
+    display: flex;
+    justify-content: space-evenly;
     padding: 10px 0;
 }
 

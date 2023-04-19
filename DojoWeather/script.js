@@ -8,7 +8,7 @@ function acceptCookies() {
 }
 
 function changeTemp(tempUnit) {
-    let days = ["#today", "#tomorrow", "#friday", "#saturday"]
+    let days = [".day1", ".day2", ".day3", ".day4", ".day5", ".day6", ".day7"]
     for (let i = 0; i < days.length; i++) {
         var container = document.querySelector(days[i])
         var temps = [".high", ".low"]
